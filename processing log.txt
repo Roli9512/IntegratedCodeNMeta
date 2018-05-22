@@ -1,1 +1,8 @@
-test line here at the top
+4/11/2018: Got everything working. Start data processing, data log, and supporting materials.
+4/13/2018: Finished Instruction Manual.
+5/11/2018: Added slice automation for matching spectral bounds, Backes working on wavelength automation, downloaded GitHub desktop workspace, clone repository, checkout File_which in IDL library. Starting 23rd and 24th April 2013 and 24th March 2011 data.
+5/15/2018: Keep hitting the problem of x breaking the angular resolution of Mercury (4.5’-14’) in Marc242011 for mercc-021a.fit with tailing rows 3,2,1,0, and leading rows 2,1,0,3,4, mercc-029a.fit with tailing rows 8,7 and leading rows 8,6,7,5,4, mercc-049a.fit, and mercc-062a.fit.
+5/16/2018: “TimCassidy” folder uploaded to Dropbox for Cassidy. Files also uploaded to GitHub for Backes. Mercn-023a.fit from Mar242011 folder does not draw any plots. Using center images from now on. Mc* .fit files from Apr242013 and Apr232013 folder does not work with darknflat3.pro line 86 due to not finding a correct rotation to match any similar files. Starting 26th October 2011 data. Testmerc* .fit files cannot find a pair in findpair3.pro line 240 by dividing by 0. Mercury data files in Oct262011 do not pass darknflat3.pro line 86.
+5/17/2018: Finished processing March 23rd 2011 data. Renamed files to fix data problems, did not work.
+5/18/2018: Finished processing March 24th 2011 data.
+5/22/2018: Fixed significant figure problem. Re-did data for March 23rd and M2th 2011. Can’t delete all elements from a vector for 2007 and 2008 data. Problem with FITS header in 1997 data. Continuous reading at darknflat3 line 86 for 2013 data. 
